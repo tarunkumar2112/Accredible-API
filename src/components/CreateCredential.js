@@ -39,7 +39,7 @@ const CreateCredential = () => {
       navigate('/response', { state: { data: response.data } });
     } catch (error) {
       console.error('Error creating credential:', error);
-      alert('Failed to create credential. Please try again.');
+      //alert('Failed to create credential. Please try again.');
     } finally {
       setLoading(false);
     }
