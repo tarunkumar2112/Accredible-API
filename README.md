@@ -16,7 +16,10 @@ Before you begin, ensure you have met the following requirements:
 
    ```bash
    git clone https://github.com/tarunkumar2112/Accredible-API.git
-2.Navigate to the Project Directory
 
+2. **Navigate to the Project Directory**
  ```bash
-npm install
+cd Accredible-API
+
+
+
