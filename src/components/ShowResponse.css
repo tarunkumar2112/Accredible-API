@@ -1,0 +1,37 @@
+/* src/components/ShowResponse.css */
+.show-response {
+    max-width: 600px;
+    margin: 80px auto; /* Adjusted to account for fixed footer */
+    padding: 20px;
+    border: 1px solid #4caf50;
+    border-radius: 8px;
+    background-color: #f0fff0;
+  }
+  
+  .show-response h2 {
+    text-align: center;
+    color: #4caf50;
+    margin-bottom: 20px;
+  }
+  
+  .show-response pre {
+    background-color: #e8f5e9;
+    padding: 15px;
+    border-radius: 4px;
+    overflow-x: auto;
+  }
+  
+  .show-response button {
+    display: block;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    background-color: #61dafb;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .show-response button:hover {
+    background-color: #21a1f1;
+  }
+  
