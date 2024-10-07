@@ -1,3 +1,4 @@
+
 # Accredible-API
 
 A React.js application that allows users to create credentials by entering their name and email. The app integrates with an external API to generate credentials and displays the API response. It includes a loading spinner for enhanced user experience during API requests.
@@ -16,97 +17,119 @@ Before you begin, ensure you have met the following requirements:
 
    ```bash
    git clone https://github.com/tarunkumar2112/Accredible-API.git
-Navigate to the Project Directory
+   ```
 
-bash
-Copy code
-cd Accredible-API
-Install Dependencies
+2. **Navigate to the Project Directory**
 
-Using npm:
+   ```bash
+   cd Accredible-API
+   ```
 
-bash
-Copy code
-npm install
-Or using Yarn:
+3. **Install Dependencies**
 
-bash
-Copy code
-yarn install
-Environment Variables
-Create a .env File
+   Using npm:
 
-In the root directory of the project, create a file named .env.
+   ```bash
+   npm install
+   ```
 
-Add the Following Variables
+   Or using Yarn:
 
-env
-Copy code
-REACT_APP_API_URL=https://private-anon-e129025237-accrediblecredentialapi.apiary-proxy.com/v1/credentials
-REACT_APP_AUTH_TOKEN=6289c2d08e24b748e6414e151231bd66
-REACT_APP_API_URL: The endpoint for creating credentials.
-REACT_APP_AUTH_TOKEN: The authorization token required by the API.
-Important: Ensure the .env file is listed in your .gitignore to prevent sensitive information from being committed.
+   ```bash
+   yarn install
+   ```
 
-Running the Application Locally
-Start the Development Server
+4. **Environment Variables**
 
-Using npm:
+   - **Create a .env File**
 
-bash
-Copy code
-npm start
-Or using Yarn:
+     In the root directory of the project, create a file named `.env`.
 
-bash
-Copy code
-yarn start
-Access the Application
+   - **Add the Following Variables**
 
-Open your browser and navigate to http://localhost:3000.
+     ```env
+     REACT_APP_API_URL=https://private-anon-e129025237-accrediblecredentialapi.apiary-proxy.com/v1/credentials
+     REACT_APP_AUTH_TOKEN=6289c2d08e24b748e6414e151231bd66
+     ```
 
-Deployment
+     - `REACT_APP_API_URL`: The endpoint for creating credentials.
+     - `REACT_APP_AUTH_TOKEN`: The authorization token required by the API.
+     
+     **Important**: Ensure the `.env` file is listed in your `.gitignore` to prevent sensitive information from being committed.
+
+## Running the Application Locally
+
+1. **Start the Development Server**
+
+   Using npm:
+
+   ```bash
+   npm start
+   ```
+
+   Or using Yarn:
+
+   ```bash
+   yarn start
+   ```
+
+2. **Access the Application**
+
+   Open your browser and navigate to [http://localhost:3000](http://localhost:3000).
+
+## Deployment
+
 You can deploy the application to platforms like Vercel or Netlify. Below are the steps for both.
 
-Deploying to Vercel
-Sign Up / Log In to Vercel
+### Deploying to Vercel
 
-Visit Vercel and sign up or log in.
+1. **Sign Up / Log In to Vercel**
 
-Import Your Git Repository
+   Visit Vercel and sign up or log in.
 
-Click on "New Project" and select your GitHub repository (Accredible-API).
-Follow the prompts to configure the project.
-Set Environment Variables
+2. **Import Your Git Repository**
 
-During the deployment setup, add the environment variables from your local .env file:
+   Click on "New Project" and select your GitHub repository (Accredible-API).
 
-REACT_APP_API_URL
-REACT_APP_AUTH_TOKEN
-Deploy
+3. **Follow the Prompts to Configure the Project.**
 
-Click "Deploy" and wait for Vercel to build and deploy your application. Once completed, Vercel will provide a live URL for your app.
+4. **Set Environment Variables**
 
-Deploying to Netlify
-Sign Up / Log In to Netlify
+   During the deployment setup, add the environment variables from your local `.env` file:
 
-Visit Netlify and sign up or log in.
+   - `REACT_APP_API_URL`
+   - `REACT_APP_AUTH_TOKEN`
 
-Connect Your Git Repository
+5. **Deploy**
 
-Click on "New site from Git."
-Select your Git provider and authorize Netlify to access your repositories.
-Choose the Accredible-API repository.
-Configure Build Settings
+   Click "Deploy" and wait for Vercel to build and deploy your application. Once completed, Vercel will provide a live URL for your app.
 
-Build Command: npm run build or yarn build
-Publish Directory: build
-Set Environment Variables
+### Deploying to Netlify
 
-In the "Build & Deploy" settings, add the environment variables:
+1. **Sign Up / Log In to Netlify**
 
-REACT_APP_API_URL
-REACT_APP_AUTH_TOKEN
-Deploy Site
+   Visit Netlify and sign up or log in.
 
-Click "Deploy Site" and wait for Netlify to build and deploy your application. Netlify will provide a live URL upon completion.
+2. **Connect Your Git Repository**
+
+   Click on "New site from Git."
+
+   Select your Git provider and authorize Netlify to access your repositories.
+
+   Choose the Accredible-API repository.
+
+3. **Configure Build Settings**
+
+   - Build Command: `npm run build` or `yarn build`
+   - Publish Directory: `build`
+
+4. **Set Environment Variables**
+
+   In the "Build & Deploy" settings, add the environment variables:
+
+   - `REACT_APP_API_URL`
+   - `REACT_APP_AUTH_TOKEN`
+
+5. **Deploy Site**
+
+   Click "Deploy Site" and wait for Netlify to build and deploy your application. Netlify will provide a live URL upon completion.
