@@ -48,8 +48,8 @@ Before you begin, ensure you have met the following requirements:
    - **Add the Following Variables**
 
      ```env
-     REACT_APP_API_URL=https://private-anon-e129025237-accrediblecredentialapi.apiary-proxy.com/v1/credentials
-     REACT_APP_AUTH_TOKEN=6289c2d08e24b748e6414e151231bd66
+     REACT_APP_API_URL=https://api.accredible.com/v1/credentials
+     REACT_APP_AUTH_TOKEN=//your token
      ```
 
      - `REACT_APP_API_URL`: The endpoint for creating credentials.
